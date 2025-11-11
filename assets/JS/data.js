@@ -6,6 +6,20 @@ export const faqData = {
     copyright: 'جميع الحقوق محفوظة',
     questions: [
       {
+        title: 'توفير الاحتياجات',
+        items: [
+          'هل سيتم توفير كافة المتطلبات التشغيلية واللوجستية اللازمة لتنفيذ المشروع؟',
+          'وهل هناك قائمة محددة بالموارد التي سيتم توفيرها من جانبكم مقابل تلك المطلوب توفيرها من جانبنا؟',
+        ],
+      },
+      {
+        title: 'فريق العمل وتطوير الموقع',
+        items: [
+          'بما أن الموقع سيتم إعادة إنشائه من الصفر، هل سيتم بالفعل توفير أعضاء فريق إضافيين (مطورين، مصممين، مختص UI/UX، إلخ) كما تمت الإشارة مسبقًا؟',
+        ],
+      },
+
+      {
         title: 'الخدمة العسكرية',
         items: [
           'ما المتوقع في حال استدعاء أحد أعضاء الفريق لأداء الخدمة العسكرية أثناء فترة البرنامج؟',
@@ -78,19 +92,6 @@ export const faqData = {
           'في حال حدوث تأخير خارج عن الإرادة، ما هي آلية الإبلاغ والمتابعة المتوقعة من كل طرف؟',
         ],
       },
-      {
-        title: 'فريق العمل وتطوير الموقع',
-        items: [
-          'بما أن الموقع سيتم إعادة إنشائه من الصفر، هل سيتم بالفعل توفير أعضاء فريق إضافيين (مطورين، مصممين، مختص UI/UX، إلخ) كما تمت الإشارة مسبقًا؟',
-        ],
-      },
-      {
-        title: 'توفير الاحتياجات',
-        items: [
-          'هل سيتم توفير كافة المتطلبات التشغيلية واللوجستية اللازمة لتنفيذ المشروع؟',
-          'وهل هناك قائمة محددة بالموارد التي سيتم توفيرها من جانبكم مقابل تلك المطلوب توفيرها من جانبنا؟',
-        ],
-      },
     ],
   },
   en: {
@@ -100,6 +101,20 @@ export const faqData = {
     copyright: 'All rights reserved',
 
     questions: [
+      {
+        title: 'Provision of Requirements',
+        items: [
+          'Will all operational and logistical requirements necessary for project implementation be provided?',
+          'Is there a specific list of resources that will be provided by your side versus those we must provide ourselves?',
+        ],
+      },
+      {
+        title: 'Team and Website Development',
+        items: [
+          'Since the website will be rebuilt from scratch, will additional team members (developers, designers, UI/UX specialists, etc.) actually be provided as previously mentioned?',
+        ],
+      },
+
       {
         title: 'Military Service',
         items: [
@@ -171,19 +186,6 @@ export const faqData = {
           'Given that there is a fixed weekly meeting, what is the procedure if the allocated time or weekly tasks are insufficient to achieve the required progress?',
           'Is it possible to request additional meetings or follow-up sessions when needed?',
           'In case of delays beyond our control, what is the reporting and follow-up mechanism expected from each party?',
-        ],
-      },
-      {
-        title: 'Team and Website Development',
-        items: [
-          'Since the website will be rebuilt from scratch, will additional team members (developers, designers, UI/UX specialists, etc.) actually be provided as previously mentioned?',
-        ],
-      },
-      {
-        title: 'Provision of Requirements',
-        items: [
-          'Will all operational and logistical requirements necessary for project implementation be provided?',
-          'Is there a specific list of resources that will be provided by your side versus those we must provide ourselves?',
         ],
       },
     ],
